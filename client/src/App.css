@@ -6,3 +6,8 @@
 .signup {
     background-image: url("./assets/loginSignup-bg.jpg") 
 }
+
+.active-nav{
+    font-weight: bold;
+    color: black;
+}
