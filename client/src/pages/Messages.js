@@ -6,9 +6,9 @@ import UserPanel from '../components/UserPanel'
 
 export default function Messages() {
   return (
-    <div className='flex justify-between'>
+    <div className='flex flex-col md:flex-row h-screen justify-between'>
       <Navbar />
-      <div className="main py-16 px-16 grow">Messages</div>
+      <div className="main px-6 md:px-16 py-6 md:py-16 grow order-2">Messages</div>
       <UserPanel/>
     </div>
   )

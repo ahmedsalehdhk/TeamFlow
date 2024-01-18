@@ -19,9 +19,14 @@ export default function Dashboard() {
   }, [])
   
   return (
-    <div className='flex flex-col md:flex-row h-screen justify-between'>
+    <div className='dashboard flex flex-col md:flex-row h-screen justify-between'>
       <Navbar />
-      <div className="main py-16 px-16 grow order-2">Dashboard</div>
+      <div className="main px-6 md:px-16 py-6 md:py-16 grow order-2">
+        <div className="greeting flex justify-between items-center">
+          <h1>Good Morning, Jennifer</h1>
+          <h1>Sunday, 25th Nov</h1>
+        </div>
+      </div>
       <UserPanel/>
     </div>
   )
