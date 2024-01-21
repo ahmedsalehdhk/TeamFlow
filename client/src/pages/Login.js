@@ -3,7 +3,7 @@ import React from 'react'
 export default function Login() {
   return (
     <div className="login w-screen h-screen bg-slate-400 flex flex-col justify-center items-center bg-cover">
-      <form action="" className='bg-white min-w-fit min-h-fit flex flex-col justify-center items-center px-10 md:px-20 py-24 md:py-32 shadow-2xl rounded'>
+      <form action="" className='bg-white min-w-fit min-h-fit flex flex-col justify-center items-center px-10 lg:px-20 py-24 lg:py-32 shadow-2xl rounded'>
         <h1 className='font-bold text-2xl'>TeamFlow</h1>
         <p className='text-lg text-neutral-400 mb-10'>Login to continue</p>
         <div className="field-container flex flex-col mb-5 w-full">

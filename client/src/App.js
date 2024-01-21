@@ -20,11 +20,11 @@ function App() {
           <Route exact path='/' element={<Login />}></Route>
           <Route exact path='/signup' element={<Signup />}></Route>
           <Route exact path='/dashboard' element={<Dashboard />}></Route>
-          <Route exact path='/dashboard/projects' element={<Projects />}></Route>
-          <Route exact path='/dashboard/tasks' element={<Tasks />}></Route>
-          <Route exact path='/dashboard/messages' element={<Messages />}></Route>
-          <Route exact path='/dashboard/calendar' element={<Calendar />}></Route>
-          <Route exact path='/dashboard/settings' element={<Settings />}></Route>
+          <Route exact path='/projects' element={<Projects />}></Route>
+          <Route exact path='/tasks' element={<Tasks />}></Route>
+          <Route exact path='/messages' element={<Messages />}></Route>
+          <Route exact path='/calendar' element={<Calendar />}></Route>
+          <Route exact path='/settings' element={<Settings />}></Route>
         </Routes>
       </Router>
     </div>
